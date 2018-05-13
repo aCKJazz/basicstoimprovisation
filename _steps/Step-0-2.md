@@ -1,9 +1,9 @@
 ---
-id: 0-2
-parent: 0-0
+id: 02
+parent: 0
 layout: lesson
 title: Part 2 - What is improvisation?
-video: https://www.youtube.com/embed/TR7N609HY_c?rel=0&amp;showinfo=0
+video: TR7N609HY_c
 overview: In this first chapter we’ll be exploring the general theory of improvisation. How can we understand improvisation as part of our daily lives and how does this relate to making music? Is improvising really so abstract or mysterious? Find out about it now!
 transcription: So what is improvisation exactly? Improvising means creating or performing something spontaneously. It occurs in many forms and disciplines like in theatre, comedy, dance, and music of course, but also in science or engineering. In fact, it happens more often than you might think. Did you know you already improvise on a daily basis without realising it? Did you have a conversation with someone today? Did you know what you were going to say before you started the conversation, or did it just come in the moment? Like, spontaneously. I’m sure you’ve already had a meal today. Did you follow strict instructions telling you what to do to get that food from the cupboard into your mouth? No, of course not. You rely on habits. But are those habits exactly the same every day? Maybe for some they are, but for most of us they can be slightly different every day again. Improvisation is actually quite the same. So we already improvise on a daily basis. But those habits we have in daily life don’t automatically transfer to new experiences, like making music. Even Vijay Iyer, a master in improvisation on piano, said he still cannot improvise on violin, the instrument he practiced first. [cut to video Vijay Iyer] So the ability to improvise has to be learned,… By practicing improvisation.
 

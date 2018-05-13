@@ -1,6 +1,6 @@
 ---
 id: 0
-display: true # This shows the
+display: true # Toggle ON/OFF the lesson from the list
 layout: lesson
 title: Lesson 0 - The Theory Of Improvisation
 video: https://www.youtube.com/embed/aE4-1Wl_p3A?rel=0&amp;showinfo=0

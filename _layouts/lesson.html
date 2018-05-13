@@ -8,7 +8,7 @@ layout: default
     <div class="col-xs-12 col-md-4 col-sm-3">
       <ul class="nav nav-tabs nav-stacked">
         {% for step in site.steps %}
-          {% if step.parent == page.id %}
+          {% if step.parent == 0 %}
             <li>
               <a href="{{ site.baseurl }}{{ step.url }}">
                 <div class="media">
@@ -28,7 +28,7 @@ layout: default
       <iframe
         width="560"
         height="315"
-        src="{{page.video}}"
+        src="https://www.youtube.com/embed/{{page.video}}?rel=0"
         frameborder="0"
         allow="autoplay; encrypted-media"
         allowfullscreen>
