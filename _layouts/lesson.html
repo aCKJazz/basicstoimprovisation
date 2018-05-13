@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<article class="course-item container">
+  <h1>{{ page.title }}</h1>
+  <div class="row">
+    <div class="col-xs-12 col-md-4 col-sm-3">
+      <ul class="nav nav-tabs nav-stacked">
+        {% for step in site.steps %}
+          {% if step.parent == page.id %}
+            <li>
+              <a href="{{ site.baseurl }}{{ step.url }}">
+                <div class="media">
+                  <img class="media-object pull-left" data-src="holder.js/64x64" alt="64x64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACsklEQVR4Xu2YWWsiURCFS6MB4xaQJBJ3cUGCD4EQiP57UYj4oKgo4osLuIAYUQzuhlPQMgzEjN4M/WBdEFvtrtt1qup8SRvG4/GeLngZRADpABkB8YAL9kASExQKCAWEAkIBocAFKyAYFAwKBgWDgsELhoD8MyQYFAwKBgWDgkHB4AUroIzB+XxO5XKZPj8/yWg00uPjI8Xj8YOk+/2e8vk8LRYLCoVCFAgEjsr92/F+qq2SAEguk8nQer0ms9nM71iJRII8Hg8fNxoN6na7fIzko9Hot/f02/F+Sh6/KwkwGAyoWq3Szc0NpVIp6nQ6NBqNyO12cyeg6rlcjpCYJkAwGKT393f+DoI8PDxQoVDgz7im1WqdFO+YoP9dAFQWFb66uuLXbrfjyms3hcSm0yn5/X5qt9uHDqhUKjQcDslkMpHFYqHZbEZWq5W8Xu9Z8f4l0e/OUeqAUqnEFceCANvtlo9RZSRWr9c5+dvbW/aJcDjML1Q7m83Scrnk8+Edb29vnPw58XQToNlscmUdDge9vr5SrVajXq9Hdrud/QAjcH9/T6vViiaTCdlsNu4Ol8tF2vjg5jEGyWSSVOKdK4JSB2gjgISen5/Z7FBFCIDqIvG/l8/no1gsxj4Ax8fCKKTTaRYF158a70/qnCqEkgCYb83A7u7u6OPjgzabDc86DA3HGI1+v8+dgu9ACFQahonf0P7oFowJhDknnsFgODXvw/lKAiAKEkNC2kL1X15eODltaZ0Bb4AnYP5hmPADp9NJxWKRT316euKuOSVeJBI5O3llDGo7448gtPP19TUnpLp+O96x+1HuANVk9b5eBJAnQvJESJ4IyRMhvZ1Yz/2FAkIBoYBQQCigpwvrvbdQQCggFBAKCAX0dmI99xcKCAWEAkIBoYCeLqz33kKBS6fAF67dgZ+CaCQnAAAAAElFTkSuQmCC" style="width: 64px; height: 64px;">
+                  <div class="media-body">
+                    <h4 class="media-heading">{{step.title}}</h4>
+                    <span class="read-more">Start Lesson</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-xs-12 col-md-6 col-sm-5">
+      <iframe
+        width="560"
+        height="315"
+        src="{{page.video}}"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Overview</a></li>
+        <li><a data-toggle="tab" href="#menu1">Transcription</a></li>
+        <li><a data-toggle="tab" href="#menu2">Playalong Track</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <br>
+          <p>{{ page.overview }}</p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <br>
+          <p>{{ page.transcription }}</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <br>
+          <p>Some content in menu 2.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+</article>
