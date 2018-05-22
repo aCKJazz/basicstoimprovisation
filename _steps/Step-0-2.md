@@ -1,5 +1,4 @@
 ---
-id: 02
 parent: 0
 layout: lesson
 title: "Step 2 - What is improvisation?"

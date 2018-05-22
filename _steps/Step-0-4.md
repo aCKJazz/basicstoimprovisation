@@ -1,5 +1,4 @@
 ---
-id: 04
 parent: 0
 layout: lesson
 title: "Step 4 - Knowledge For Improvisation"

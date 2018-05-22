@@ -1,5 +1,4 @@
 ---
-id: 01
 parent: 0
 layout: lesson
 title: "Step 1 - Introduction to theory of improvisation"

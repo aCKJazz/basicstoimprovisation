@@ -8,7 +8,7 @@ layout: default
     <div class="col-xs-12 col-md-4 col-sm-3">
       <ul class="nav nav-tabs nav-stacked">
         {% for step in site.steps %}
-          {% if step.parent == 0 %}
+          {% if step.parent == page.lesson %}
             <li>
               <a href="{{ site.baseurl }}{{ step.url }}">
                 <div class="media">

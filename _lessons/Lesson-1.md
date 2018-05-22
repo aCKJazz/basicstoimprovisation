@@ -1,5 +1,5 @@
 ---
-id: 1
+lesson: 1
 display: true # Toggle ON/OFF the lesson from the list
 layout: lesson
 title: Lesson 1 - Finding your way around your instrument
