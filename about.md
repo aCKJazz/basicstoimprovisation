@@ -8,5 +8,5 @@ This website has been created for educational purposes as part of the Master in 
 
 ### More Information
 
-Content design by Adriaan Vervoort
+Content design by Adriaan Vervoort <br>
 Website design by Yoggsoft
