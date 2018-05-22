@@ -1,5 +1,4 @@
 ---
-id: 03
 parent: 0
 layout: lesson
 title: "Step 3 - Comparing Improvisation With Other Musical Disciplines"

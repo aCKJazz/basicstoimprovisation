@@ -1,5 +1,5 @@
 ---
-id: 0
+lesson: 0
 display: true # Toggle ON/OFF the lesson from the list
 layout: lesson
 title: Lesson 0 - The Theory Of Improvisation
